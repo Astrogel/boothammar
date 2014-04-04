@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Strömshammar</title>
+
+    <!-- laddar core botstrap css -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- laddar css -->
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/newsFeed.css" rel="stylesheet">
+    <link href="css/sideBar.css" rel="stylesheet">
+    
+    <!-- laddar fonter -->
+    <link href='http://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body>
+    
+    <!-- kod för navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <!-- loggan uppe i vänstra hörnet -->
+                <a class="navbar-brand" href="index.html">Strömshammar</a>
+            </div>
+            
+            <!-- menybitar -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>Startsidan</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-info-sign"></span>Föreningsinformation<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="stadgar.html">Stadgar</a>
+                            </li>
+                            <li><a href="styrelsen.html">Styrelsen</a>
+                            </li>
+                            <li><a href="vattengruppen.html">Vattengruppen</a>
+                            </li>
+                            <li><a href="vagogront.html">Väg och grönt</a>
+                            </li>
+                            <li><a href="lagindelning.html">Lagindelning</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-leaf"></span>Fritidsaktiviteter<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fiske.html">Fiske</a>
+                            </li>
+                            <li><a href="golf.html">Golf</a>
+                            </li>
+                            <li><a href="boule.html">Boule</a>
+                            </li>
+                            <li><a href="fest.html">Fest</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="kontakt.html"><span class="glyphicon glyphicon-user"></span>Kontakt</a>
+                    </li>
+                    <li><a href="historia.html"><span class="glyphicon glyphicon-time"></span>Historia</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- kod för slidern -->
+    <div id="myCarousel" class="carousel slide">
+        
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+            <li data-target="#myCarousel" data-slide-to="9"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active"> <!-- active -> denna bild som visas när sidan laddar -->
+                <div class="fill" style="background-image:url('bilder/slider/road.jpg');"></div>
+                <!-- för caption lägg till:
+                    <div class="carousel-caption">
+                        <h1>Caption 3</h1>
+                    </div>  -->
+
+            <!-- lägg till bilder i slidern nedan -->
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/brygga.jpg');"></div>
+                </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/stenen.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/kvallssol.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/sunset.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/stranden.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/boat.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/hostsjo.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/kanot.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/kanot2.jpg');"></div>
+            </div>
+            </div>
+            
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </div>
+
+    <!-- kod för länk till galleriet -->
+    <div id="linkContainer">
+    <span class="glyphicon glyphicon-picture"></span><a href="masonry.html"><b>Se mer bilder i galleriet</b></a>
+    </div>
+    
+    <!-- kod för vänsterspalt -->
+    <div class="container">
+        <div class="row">
+            <div class="col-centered">
+                <div class="col-xs-12 col-md-8">
+                    <div class="newsFeed">
+                        <div class="newsItem">
+                            <h2>Vattengruppen</h2>
+                            <p>Vattengruppen ansvarar för drift-underhåll av våra två pumphus och tillhörande distributionsnät. Som alla nog vet finns det vissa regler hur vi använder vårt vatten, allrahelst under semesterperioden. Under denna tid måste samtliga vara mycket restriktiva hur vi förbrukar vatten. Det är av största vikt att regler för vattenhushållning efterlevs, bevattningsförbud råder generellt under denna period. Vattnets kvalitét kontrolleras enligt gällande direktiv. </p>
+                            <p>Vattengruppen består av:</p>
+                            <p>Dan Björklund</p>
+                            <p>Kent Johansson</p>
+                            <p>Jan Maarten Dijkgraf</p>
+                            <p>Leif Nordström</p>
+                            <p>Torbjörn Larsson</p>
+
+                        </div>
+
+                        <div class="newsItem">
+                            <h2>Vattenbulletin</h2>
+                            <p>Vi har under året haft betydliga problem med vårat vattennät. Det har varit läckor till följd av
+                            den kraftiga tjällossningen, tomtägare som glömt stänga av sitt vatten, gammal och sliten utrustning mm.</p>
+
+                            <p>Styrelsen har beslutat att i efterhand som skador uppträder ska vårt vattennät gradvis bytas ut. Vi lagar inte
+                            bara utan byter allteftersom till nyare och mer driftsäker utrustning. Det kan gälla ledningar, kopplingar, pumpar
+                            , doseringsutrustning mm, allt som har med vårt vattennät att göra.</p>
+
+                            <p>Styrelsen vill tipsa tomtägarna om att se till att, under den här renoveringstiden (som vi just nu inte vet hur
+                             lång den kan bli), alltid ha en beredskap för att vi avav och till kan bli av med vattnet under kortare eller längre tid.
+                             Därför, spola upp en hink, dunk eller kanna så att du alltid har lite vatten. </p>
+
+                            <b>Observera att det heller inte är tillåtet att använda spridare för att vattna gräsmattan. Så klart kan du vattna extra
+                             känsliga växter och det som är nyplanterat, men låt bli att vattna annat.</b>
+
+                             <b>När du som fritidshusägare åker hem efter semestern, helgen eller dylikt - kolla alltid extra nog att du stängt av
+                             huvudkranen och att det inte står och läcker vatten någonstans på tomten. Du blir själ ersättningsskyldig för
+                             åtgärden om felet ligger på din tomt.</b>
+                             <br>
+                             <p>Vänligen!</p>
+                             <p>Strömshammar i september 2006</p>
+                             <p>Styrelsen</p>
+
+                        </div>
+                        
+                        <div class="footerItem">
+                            <ul>
+                                <li><a href=''>Förbättringsförslag</a></li>
+                                <li><a href=''>Grunka</a></li>
+                                <li><a href=''>Annan grunka</a></li>
+                                <li><a href=''>Bautasten</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- kod för högerspalt -->
+                <div class="col-xs-12 col-md-4">
+                    <div class="sideBar">
+                        <div class="sideBarItem">
+                        <h2>Felanmälan:</h2>
+                        <p>Felanmälan på vattennätet görs till vattengruppen.  <br><br>
+                            Telefon : 073-829 62 75</p>
+                        </div>
+
+                        <div class="sideBarItem">
+                        <h2>Testprotokoll gamla pumphuset:</h2>
+                        <p><a href="dokument/testprotokoll_gamla.pdf">testprotokoll_gamla.pdf</a></p>
+                        </div>
+
+                        <div class="sideBarItem">
+                        <h2>Testprotokoll nya pumphuset:</h2>
+                        <p><a href="dokument/testprotokoll_nya.pdf">testprotokoll_nya.pdf</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- /.container -->
+       
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+    
+</body>
+
+</html>

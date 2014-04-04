@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Strömshammar</title>
+
+    <!-- laddar core botstrap css -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- laddar css -->
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/newsFeed.css" rel="stylesheet">
+    <link href="css/sideBar.css" rel="stylesheet">
+    
+    <!-- laddar fonter -->
+    <link href='http://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body>
+    
+    <!-- kod för navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <!-- loggan uppe i vänstra hörnet -->
+                <a class="navbar-brand" href="index.html">Strömshammar</a>
+            </div>
+            
+            <!-- menybitar -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>Startsidan</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-info-sign"></span>Föreningsinformation<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="stadgar.html">Stadgar</a>
+                            </li>
+                            <li><a href="styrelsen.html">Styrelsen</a>
+                            </li>
+                            <li><a href="vattengruppen.html">Vattengruppen</a>
+                            </li>
+                            <li><a href="vagogront.html">Väg och grönt</a>
+                            </li>
+                            <li><a href="lagindelning.html">Lagindelning</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-leaf"></span>Fritidsaktiviteter<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fiske.html">Fiske</a>
+                            </li>
+                            <li><a href="golf.html">Golf</a>
+                            </li>
+                            <li><a href="boule.html">Boule</a>
+                            </li>
+                            <li><a href="fest.html">Fest</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="kontakt.html"><span class="glyphicon glyphicon-user"></span>Kontakt</a>
+                    </li>
+                    <li><a href="historia.html"><span class="glyphicon glyphicon-time"></span>Historia</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- kod för slidern -->
+    <div id="myCarousel" class="carousel slide">
+        
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+            <li data-target="#myCarousel" data-slide-to="9"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active"> <!-- active -> denna bild som visas när sidan laddar -->
+                <div class="fill" style="background-image:url('bilder/slider/road.jpg');"></div>
+                <!-- för caption lägg till:
+                    <div class="carousel-caption">
+                        <h1>Caption 3</h1>
+                    </div>  -->
+
+            <!-- lägg till bilder i slidern nedan -->
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/brygga.jpg');"></div>
+                </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/stenen.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/kvallssol.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/sunset.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/stranden.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/boat.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/hostsjo.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/kanot.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/kanot2.jpg');"></div>
+            </div>
+            </div>
+            
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </div>
+
+    <!-- kod för länk till galleriet -->
+    <div id="linkContainer">
+    <span class="glyphicon glyphicon-picture"></span><a href="masonry.html"><b>Se mer bilder i galleriet</b></a>
+    </div>
+    
+    <!-- kod för vänsterspalt -->
+    <div class="container">
+        <div class="row">
+            <div class="col-centered">
+                <div class="col-xs-12 col-md-8">
+                    <div class="newsFeed">
+                        <div class="newsItem">
+				<h2>Lite historik om Strömshammar</h2>
+
+				<p>Långt innan vårt fritidsområde var påtänkt fanns människor som bodde här och fann sin försörjning. I en hage där vi nu passerar Henaren fanns torpet Anderslunda och i gärdeshörnet mitt emot tomt 114 torpet Perslunda. Här kan man ännu se var jordkällaren fanns. Ett annat torp fanns i sluttningen vid fårhagen mellan Strömshammar och Henaren strax utanför vårt områdes gräns. Det torpet hette Sjölund och grundstenar och rester av jordkällare kan ännu ses.</p>
+				<img src="bilder/Slagolskvarnkarta.jpg" class="center">
+				<p>Vårt område har inte alltid hetat Strömshammar. Troligen i mitten av 1600-talet byggdes här en kvarn som då tillhörde gården Slaggölet på andra sidan Henaren. En karta över Dunkers socken 1678 visar en kvarnsymbol och namnet Slagiöls Qvarn i bäcken från Kvarnsjön.
+				Ett hundratal meter från sjöns utlopp kan man se en stenbro och där finns rester av en gammal dammvall. På en skifteskarta från 1777-78 finns dammen utritad. För att driva kvarnen var man tvungen att spara vatten i sjön och sedan släppa på när säd skulle malas. När man går runt Kvarnsjön kan man på vissa håll se att strandlinjen tidigare har varit ungefär en meter högre upp än vad den är idag.
+				På kartan ser man också att sjön då gick ända fram till stenbron och ända fram där vårt äldsta pumphus nu ligger.
+				1831 fick en färgarfabrikör Kastman kontrakt på att han fick bygga en ”wallmarstamp” i Slaggiöleqvarn. Kastman bodde i Malmköping där han drev en färgargård och hade behov att färga garner och tyger. Han byggde alltså en Vadmalsstamp vid kvarnbyggnaden där han bearbetade vadmalstyger. För att driva stampen gick det åt vattenkraft som togs ur bäcken på samma sätt som till kvarnen.
+				1868 kom en ny ägare till Slaggiöleqvarn från Arboga. Han hette Carl-Erik Svanström och kallades manufakturmästare. Då hade också uppförts en större manbyggnad och en ekonomibyggnad. I ett uppslagsverk nämns Slagiöls qvarn och vadmalsstamp. En karta från 1865 visar att här fanns tio byggnader varav fem stycken låg i direkt anslutning till bäcken.</p>
+				<p>Under senare hälften av 1800-talet börjar ett nytt namn användas i kyrkböcker och husförhörslängder parallellt med Slagiöls stamp, nämligen Strömshammar. Det tyder på att nu har också en hammare eller smedja byggts. Från 1877 anges i Södermanlands läns kalender att bland Dunkers industrier finns Strömshammars manufaktursmide. Enligt en muntlig källa, vidareberättad i ett par generationer, har stångjärn forslats hit från Stålboga stångjärnssmedja på vinterns sjöisar och sedan förädlats till bl.a. spik och jordbruksredskap.</p>
+				<p>Ungefär vid förra sekelskiftet börjar ”industriepoken” att försvinna och Strömshammar övergår till att bli ett mindre jordbruk. En del av Strömshammar där tomterna 48 till 59 nu finns, avstyckas och blir fastigheten Eriksdal men denna överlever bara under 15 år och återgår sedan till Strömshammar.Så fortsätter Strömshammar att brukas under olika ägare och arrendatorer och i mitten av 1900-talet är ägaren en greve Mammerheim vid Altnäs gård. Han säljer marken till Stockholm med Omnejd AB (SMO) som påbörjar exploateringen. Under slutet av 1960-talet sker fältarbete och kartering och lantmäteriförrättning
+				slutförs 1970. I maj detta år börjar de första tomterna säljas. En lokal försäljare sitter vid ett campingbord där vår gula postlåda nu finns. Han bokar preliminärintresse och tar handpenning med 100 kr. Intresset verkar stort och ganska snart har ett nybyggarsamhälle uppstått.</p>
+				<p>1971 bildades Strömshammars Vägförening med uppgift att ha kontakt med SMO och på sikt övertar områdets vägar, vattenanläggning, badplatser, grönområden o.s.v. 1975 övertog föreningen området från SMO och fick lagfart på stamfastigheten. Vattenanläggningen slutbesiktigades och övertogs 1976. Under följande år har ytterligare ett vattenverk byggts, vägar förbättrats, badplatser och bryggor underhållits, viss avverkning av skog har utförts m.m. Vi har nu i vårt område stora möjligheter till avkoppling och rekreation. T.ex. på vår lilla festplats med fotbollplan och boulebana eller vid badplatserna. Vi kan gå markerade stigar, vandra på Sörmlandsleden till Malmköping eller Ösjön med vindskydd och grillplats och vi kan plocka bär och svamp. På vintern kan vi åka skridskor eller skidor, spår brukar finnas om det är gott om snö. Ett mysigt område och härliga omgivningar, det har du säkert upptäckt. </p>
+				<p><b>Vill du veta ännu mera kan du kontakta tomt 58 Göran Bayard</b></p>
+			</div>
+                        
+                        <div class="footerItem">
+                            <ul>
+                                <li><a href=''>Förbättringsförslag</a></li>
+                                <li><a href=''>Grunka</a></li>
+                                <li><a href=''>Annan grunka</a></li>
+                                <li><a href=''>Bautasten</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- kod för högerspalt -->
+                <div class="col-xs-12 col-md-4">
+                    <div class="sideBar">
+                        <div class="sideBarItem">
+                            <h2>Grejer här?</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- /.container -->
+       
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+    
+</body>
+
+</html>

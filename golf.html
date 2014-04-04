@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Strömshammar</title>
+
+    <!-- laddar core botstrap css -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- laddar css -->
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/newsFeed.css" rel="stylesheet">
+    <link href="css/sideBar.css" rel="stylesheet">
+    
+    <!-- laddar fonter -->
+    <link href='http://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+    
+    
+</head>
+
+<body>
+    
+    <!-- kod för navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <!-- loggan uppe i vänstra hörnet -->
+                <a class="navbar-brand" href="index.html">Strömshammar</a>
+            </div>
+            
+            <!-- menybitar -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>Startsidan</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-info-sign"></span>Föreningsinformation<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="stadgar.html">Stadgar</a>
+                            </li>
+                            <li><a href="styrelsen.html">Styrelsen</a>
+                            </li>
+                            <li><a href="vattengruppen.html">Vattengruppen</a>
+                            </li>
+                            <li><a href="vagogront.html">Väg och grönt</a>
+                            </li>
+                            <li><a href="lagindelning.html">Lagindelning</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-leaf"></span>Fritidsaktiviteter<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fiske.html">Fiske</a>
+                            </li>
+                            <li><a href="golf.html">Golf</a>
+                            </li>
+                            <li><a href="boule.html">Boule</a>
+                            </li>
+                            <li><a href="fest.html">Fest</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="kontakt.html"><span class="glyphicon glyphicon-user"></span>Kontakt</a>
+                    </li>
+                    <li><a href="historia.html"><span class="glyphicon glyphicon-time"></span>Historia</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- kod för slidern -->
+    <div id="myCarousel" class="carousel slide">
+        
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+            <li data-target="#myCarousel" data-slide-to="9"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active"> <!-- active -> denna bild som visas när sidan laddar -->
+                <div class="fill" style="background-image:url('bilder/slider/road.jpg');"></div>
+                <!-- för caption lägg till:
+                    <div class="carousel-caption">
+                        <h1>Caption 3</h1>
+                    </div>  -->
+
+            <!-- lägg till bilder i slidern nedan -->
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/brygga.jpg');"></div>
+                </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/stenen.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/kvallssol.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/sunset.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/stranden.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/boat.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/hostsjo.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/kanot.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('bilder/slider/kanot2.jpg');"></div>
+            </div>
+            </div>
+            
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </div>
+    
+    <!-- kod för länk till galleriet -->
+    <div id="linkContainer">
+    <span class="glyphicon glyphicon-picture"></span><a href="masonry.html"><b>Se mer bilder i galleriet</b></a>
+    </div>
+    
+    <!-- kod för vänsterspalt -->
+    <div class="container">
+        <div class="row">
+            <div class="col-centered">
+                <div class="col-xs-12 col-md-8">
+                    <div class="newsFeed">
+                        <div class="newsItem">
+                            <h2>Strömshammarsmästerskapet 2012</h2>
+                            <p>Lördagen de 11 augusti spelades vår årliga golftävling för sextonde året i rad i ett strålande sommarväder
+                            på Solbacka GK. 24 spelare deltog i tävlingen damer och herrar.</p>
+                            
+                        <p>Resultatlista:</p>
+                            <table>
+                                <tr>
+                                    <td>Damer</td>
+                                    <td>S-HCP</td>
+                                    <td>Resultat</td>
+                                </tr>
+                                <tr>
+                                    <td>Kerstin Wakander</td>
+                                    <td>28</td>
+                                    <td> 73</td>
+                                </tr>
+                                <tr>
+                                    <td>Inger Danielsson</td>
+                                    <td>32</td>
+                                    <td>76</td>
+                                </tr>
+                                <tr>
+                                    <td>Eva Uppströmer</td>
+                                    <td>33</td>
+                                    <td>77</td>
+                                </tr>
+                                <tr>
+                                    <td>Herrar</td>
+                                    <td>S-HCP</td>
+                                    <td>Resultat</td>
+                                </tr>
+                                <tr>
+                                    <td>Anders Börjebo</td>
+                                    <td>16</td>
+                                    <td>67</td>
+                                </tr>
+                                <tr>
+                                    <td>Kurt Danielsson</td>
+                                    <td>18</td>
+                                    <td>74</td>
+                                </tr>
+                                <tr>
+                                    <td>Lars Sparreljung</td>
+                                    <td>26</td>
+                                    <td>74</td>
+                                </tr>
+                                <tr>
+                                    <td>Longdrive:</td>
+                                </tr>
+                                <tr>
+                                    <td>Damer</td>
+                                    <td>Margreth Björklund</td>
+                                </tr>
+                                <tr>
+                                    <td>Herrar</td>
+                                    <td>Joakim Björklund</td>
+                                </tr>
+                                <tr>
+                                    <td>Närmast hål:</td>
+                                </tr>
+                                <tr>
+                                    <td>Damer</td>
+                                    <td>Kerstin Wakander</td>
+                                </tr>
+                                <tr>
+                                    <td>Herrar</td>
+                                    <td>Johan Börjebo</td>
+                                </tr>
+                            </table>
+                            <p>Bästa lag: Inger Danielsson, Johan Börjebo, Joakim Björklund 233 slag.</p>
+                            
+                        <img src="bilder/golf2012/stromshammargolfen20120981.JPG" title="Golf 2012">
+                        <img src="bilder/golf2012/stromshammargolfen20121021.JPG" title="Golf 2012">
+						<img src="bilder/golf2012/stromshammargolfen20121031.JPG" title="Golf 2012">
+						<img src="bilder/golf2012/stromshammargolfen20121041.JPG" title="Golf 2012">
+						<img src="bilder/golf2012/stromshammargolfen20121051.JPG" title="Golf 2012">
+		              </div>
+                        
+                        
+                        <div class="footerItem">
+                            <ul>
+                                <li><a href=''>Förbättringsförslag</a></li>
+                                <li><a href=''>Grunka</a></li>
+                                <li><a href=''>Annan grunka</a></li>
+                                <li><a href=''>Bautasten</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- kod för högerspalt -->
+                <div class="col-xs-12 col-md-4">
+                    <div class="sideBar">
+                        <div class="sideBarItem">
+                            <h2>Bilder från 2008:</h2>
+                            <p><a href="bilder/golf2008/golf2008.pdf">golf2008.pdf</a></p>
+                            </div>
+
+                            <div class="sideBarItem">
+                            <h2>Bilder från 2009:</h2>
+                            <p><a href="bilder/golf2009/golf2009.pdf">golf2008.pdf</a></p>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- /.container -->
+       
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+    
+</body>
+
+</html>
