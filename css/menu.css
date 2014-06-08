@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
 .navbar-header {
     float: none;
 }
@@ -24,12 +24,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-}
-
-#logo {
-position: relative;
-top: -12px;
-height:40px
 }
 
 .navbar {
