@@ -65,3 +65,9 @@ font-size: 3em;
 .masonryFeed p {
 color:black;
 }
+
+#dandelion {
+    padding: 20px;
+    float: left;
+    max-height: auto;
+}
